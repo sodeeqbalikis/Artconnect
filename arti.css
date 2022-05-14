@@ -1,0 +1,675 @@
+/* css reset */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header for index, category, ext category, sign in and signn up pages */
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px;
+    align-items: center;
+    gap: 250px;
+}
+.right{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 100px;
+}
+/* used in styling all searchbar in different pages */
+#search{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 34px;
+    background-color: white;
+}
+
+.list{
+    text-transform: uppercase;
+    background-color: #FFA500;
+    border: 1px solid #FFA500;
+    display: flex;
+    align-self: center;
+    padding: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+}
+.ipsum{
+   display: flex;
+   justify-content: space-around;
+   height: 50vh;
+  padding: 60px; 
+  gap: 30px;
+  margin: 10px;
+}
+.join{
+    border: 1px solid #FFA500;
+    background-color: #FFA500;
+    position: relative;
+    left: 40%;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: fit-content;
+    height:50vh;
+    width: 15%;
+    margin: 50px;
+    background-color: #c4c4c4;
+    
+    
+}
+.img{
+    border: 1px solid #ffa500;
+    background-image: url(carpentry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50%;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.card-1{
+    
+    padding: 20px;
+}
+.rating{
+    text-align: right;
+}
+button{
+    background-color: #FFA500;
+    padding: 10px;
+    position: relative;
+    left: 55px;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px;
+    
+}
+/* footer used for all pages */
+footer{
+    border: 1px solid black;
+    background-color: #FFA500;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    bottom: auto;
+}
+/* styling category pages */
+.occupation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+    justify-content: center;
+}
+.barbing{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding:5px 10px;
+    
+    
+}
+.plumbing{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.catering{
+    display: flex;
+    align-content: centers;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.painting{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.automobile{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.electronics{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.repairer{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.tailor{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.teaching{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.carpentry{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+.design{
+    display: flex;
+    justify-content: space-between;
+    align-content: centers;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FFA500;
+    width: 143px;
+    height: 16px;
+    padding: 5px 10px;
+}
+/* extended category */
+.banners{
+    background-image: url(carp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+main{
+    padding:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    border: 1px solid black;
+    width: 537px;
+    height: 181px;
+}
+.comment{
+    border:1px solid #FFA500;
+    background-color: #FFA500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    position: relative;
+    left: 460px;
+
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 100px 10px;
+}
+
+.remCard {
+    display: flex;
+    flex-flow: row wrap;
+    width: 300px;
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+.remCard > img {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.remCard > p {
+    width: 190px;
+}
+/* styling sign in */
+.signin{
+    border: 1px solid black;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* background-color: #C4C4C4; */
+    
+    
+}
+input{
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+input[type="submit"]{
+    border: 1px solid #17AD1D;
+    width: 35em;
+    background: #17AD1D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: white;
+}
+.input{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 40px;
+
+}
+#account{
+    margin: 10px;
+    padding: 10px;
+}
+#google{
+    position: relative;
+    left: 15%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: red;
+    width: 350px;
+    padding: 5px;
+    margin:20px 15px;
+    box-shadow: 0px 4px 4px rgb(73, 58, 58);
+  
+}
+#fb{
+    position: relative;
+    left: 15%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    width: 350px;
+    padding: 5px;
+    margin:20px 15px;
+    box-shadow: 0px 4px 4px rgb(73, 58, 58);
+}
+a:link{
+color: #FFA500;
+}
+
+h3 {
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+h3:before,
+h3:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+h3:before {
+  right: 0.5em;
+  margin-left: -30%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -30%;
+}
+.rightbar{
+    background: #E5E5E5;
+    border-radius: 5px 0px 0px 5px;   
+}
+/* styling signup */
+.signup{
+    border: 1px solid black;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.inputup{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+
+}
+#signin{
+    border: 1px solid #17AD1D;
+    width: 30em;
+    background: #17AD1D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* head for dashboard web, notification, and profile pages */
+.heading{
+    border-bottom: 1px solid black;
+    background-color: #FFA500;
+    box-shadow: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    
+
+}
+/* styling dashboard */
+.wp{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.artisan{
+    margin: 50px;
+}
+.artist{
+    display: flex;
+    justify-content: space-between;
+
+}
+.profile{
+    display: flex;
+    gap: 40px;
+    width: 70%;
+}
+#profile{
+    border: 1px solid #ffa500;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 10px;
+    background-color: #FFA500;
+}
+.workreview{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 50px 0px 50px 50px;
+}
+.review{
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    width: fit-content;
+    /* margin: 50px; */
+    width: 400px;
+}
+.ijakaye{
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px 0px 10px;
+}
+#img{
+    border: 3px solid #FFA500;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.text{
+    padding: 0px 15px 15px 15px;
+}
+.reviewcomment{
+    border: 1px solid black;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    
+}
+.DC{
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    position: relative;
+    top: 160px;
+    left: 200px;
+}
+.D{
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px;
+    width:60px;
+    text-align: center;
+}
+.R{
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    background-color: #FFA500;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+}
+
+/* styling add work */
+.banner{
+    margin: 0;
+    padding: 0;
+    background-image: url(carp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+    
+}
+.addwork{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    width: 70%;
+    background-color: #E5E5E5;
+    margin: 50px 200px;
+}
+.workstatus{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C4C4C4;
+    background-color: #C4C4C4;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    width: 50%;
+    align-content: center;
+    margin: 15px 225px;
+
+}
+.description{
+    border: 1px solid black;
+    background-color: #E5E5E5;
+    color: #C4C4C4;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 225px;
+    width: 50%;
+    
+}
+#upload{
+    padding: 5px;
+    margin: 30px 400px;
+    font-size: large;
+    font-weight: bold;
+
+}
+#picsupload{
+    border: 1px solid #FFA500;
+    width: 15%;
+    height: 25vh;
+    background-color: #fcd489;
+    margin: 30px 400px;
+}
+#change{
+    border: 1px solid #FFA500;
+    background-color: #FFA500;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(58, 47, 47);
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 30px 420px 50px 420px;
+}
+.upload{
+    border: 1px solid green;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px;
+    background-color: #17AD1D;
+    width: 55%;
+    color: white;
+    margin: 20px 220px 100px 220px;
+    text-align: center;
+    padding: 10px;
+}
+.previouswork{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 100px 100px;
+    flex-wrap: wrap;
+    
+
+}
+/* styling notification */
+.notification{
+    margin: 100px 200px;
+}
+.nothead{
+    border: 1px solid #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 5px 0px;
+}
+.img-1{
+    background-color: #E5E5E5;
+    padding:40px;
+}
+.Notpics {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 15px;
+}
+.Notpics > img {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.Notpics > p {
+    width: 80%;
+} 
+/* styling profile page */
+content{
+    border: 1px solid black;
+    /* margin: 300px; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#banner{
+    width: 223px;
+   
+}
+/* .pic{
+    border: 2px solid #FFA500;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom:150px;
+    left: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+} */
+.form{
+    background-color: #C4C4C4;
+    margin: 300px;
+}
