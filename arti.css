@@ -5,7 +5,6 @@ body{
 }
 /* header for index, category, ext category, sign in and signn up pages */
 header{
-    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -88,25 +87,32 @@ header{
 
 }
 .card-1{
-    
     padding: 20px;
 }
 .rating{
     text-align: right;
+}
+.whatsapp{
+    padding: 5px 10px 5px 15px;
+}
+.tel{
+    padding: 5px 10px 5px 15px;
+}
+.sms{
+    padding: 5px 10px 0px 15px;
 }
 button{
     background-color: #FFA500;
     padding: 10px;
     position: relative;
     left: 55px;
-    top: 20px;
+    /* top: 5px; */
     border-radius: 5px;
     box-shadow: 0px 4px 4px;
     
 }
 /* footer used for all pages */
 footer{
-    border: 1px solid black;
     background-color: #FFA500;
     display: flex;
     align-items: center;
@@ -122,14 +128,13 @@ footer{
     gap: 20px;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 40px;
+    padding: 10px 50px;
     justify-content: center;
 }
 .barbing{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -141,8 +146,7 @@ footer{
 .plumbing{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -151,9 +155,8 @@ footer{
 }
 .catering{
     display: flex;
-    align-content: centers;
+    align-content: center;
     justify-content: space-between;
-    border: 1px solid black;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -164,7 +167,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-content: centers;
-    border: 1px solid black;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -174,8 +176,7 @@ footer{
 .automobile{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -185,8 +186,7 @@ footer{
 .electronics{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -196,8 +196,7 @@ footer{
 .repairer{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -207,8 +206,7 @@ footer{
 .tailor{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -218,8 +216,7 @@ footer{
 .teaching{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -229,8 +226,7 @@ footer{
 .carpentry{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -240,8 +236,7 @@ footer{
 .design{
     display: flex;
     justify-content: space-between;
-    align-content: centers;
-    border: 1px solid black;
+    align-content: center;
     border-radius: 15px;
     background-color: #FFA500;
     width: 143px;
@@ -268,6 +263,16 @@ main{
     padding:150px;
     display: flex;
     justify-content: space-between;
+    font-size: larger;
+}
+.chat{
+    padding: 20px;
+}
+.no{
+    padding: 20px;
+}
+.SMS{
+    padding: 20px;
 }
 .container{
     border: 1px solid black;
@@ -350,7 +355,6 @@ input[type="submit"]{
 #google{
     position: relative;
     left: 15%;
-    border: 1px solid black;
     border-radius: 20px;
     background-color: red;
     width: 350px;
@@ -362,7 +366,6 @@ input[type="submit"]{
 #fb{
     position: relative;
     left: 15%;
-    border: 1px solid black;
     border-radius: 20px;
     background-color: blue;
     width: 350px;
@@ -433,7 +436,6 @@ h3:after {
 
 /* head for dashboard web, notification, and profile pages */
 .heading{
-    border-bottom: 1px solid black;
     background-color: #FFA500;
     box-shadow: 0px 0px 10px 0px;
     display: flex;
